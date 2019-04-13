@@ -1,0 +1,65 @@
+.left-panel {
+  width: 350px;
+  float: left;
+}
+
+.help {
+  margin-top: 30px;
+}
+
+.buttons label {
+  width: 50px;
+  display: inline-block;
+}
+
+.control-center {
+  margin-top: 20px;
+}
+
+.control-center textarea {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.control-center label {
+  vertical-align: top;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+table.rover-grid {
+  border: solid 1px black;
+}
+
+.rover-grid td {
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+  cursor: pointer;
+}
+
+.rover-grid td.obstacle {
+  background-color: black;
+}
+
+.mars-rover {
+  margin-left: 20px;
+}
+
+.mars-rover-N {
+  transform: rotate(-90deg);
+}
+
+.mars-rover-E {
+  transform: rotate(0deg);
+}
+
+.mars-rover-S {
+  transform: rotate(90deg);
+}
+
+.mars-rover-W {
+  transform: rotate(180deg);
+}
